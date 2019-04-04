@@ -21,7 +21,6 @@ public class Circle {
 	}
 
 	public void setText(String text){
-		String s="hej";
 		this.text=text;
 	}
 }
