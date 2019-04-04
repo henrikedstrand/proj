@@ -3,6 +3,7 @@
 public class Circle {
 
 	private int radius;
+	private String text;
 	public Ciricle(){
 		radius=10;
 	}
@@ -17,5 +18,9 @@ public class Circle {
 
 	public int getArea(){
 		return Math.PI*Math.pow(radius,2)
+	}
+
+	public void setText(String text){
+		this.text=text;
 	}
 }
